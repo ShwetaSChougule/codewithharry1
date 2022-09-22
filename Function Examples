@@ -1,0 +1,21 @@
+
+def logged(func):
+    def wrapper(*args, **kwargs):
+        print('Calling', func.__name__)
+        for i in wrapper():
+            print(i)
+        return func(*args, **kwargs)
+    return wrapper
+
+def add(x, y):
+    print(x+y)
+    return x + y
+def sub(x,y):
+    print(x-y)
+    return x - y
+
+logged_sub = logged(sub)
+logged_add = logged(add)
+
+logged_add(3,4)
+logged_sub(20,2)
