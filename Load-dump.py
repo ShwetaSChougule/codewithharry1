@@ -1,7 +1,7 @@
 # json is javascript object notation
 # Mostly used to store and transfer the data
 ###########################Deserialization################################
-# json.load() - it is used to parse json file
+# json.load() - takes json encoded data from a file and converts to python dictionary
 # difference between load() and loads():
 # json.loads() is used to read json data from FILE and returns dictionary.
 # example:
