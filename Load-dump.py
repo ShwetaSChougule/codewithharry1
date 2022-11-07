@@ -3,7 +3,7 @@
 ###########################Deserialization################################
 # json.load() - it is used to parse json file
 # difference between load() and loads():
-# json.load() is used to read json data from FILE and returns dictionary.
+# json.loads() is used to read json data from FILE and returns dictionary.
 # example:
 
 # create json file:
