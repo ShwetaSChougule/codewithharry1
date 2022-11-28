@@ -1,18 +1,14 @@
-# Factorial without recurssion
-# num = int(input('Enter a number'))
-
-# def factorial(n):
-#     fact = 1
-#     if n <0:
-#         print('Enter valid input')
-#     elif n==0:
-#         print('Factorial is 1')
-#     else:
-#         for i in range(1,n+1):
-#             fact = fact * i
-#         print(fact)
-#
-# factorial(num)
+Factorial without recurssion
+n = int(input('Enter a number'))
+fact = 1
+if n < 0:
+    print('Enter valid number')
+elif n == 0:
+    print('1')
+else:
+    for i in range(1,n+1):
+        fact*=i
+    print(fact)
 
 # fact 0 and fact 1 are 1
 
